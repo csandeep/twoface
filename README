@@ -1,0 +1,15 @@
+Two Face
+=========
+
+This is the Two Face app for mac, it is a two factor authenticator for mac.
+
+This was heavily inspired by the google-authenticator for Android (and iOS). 
+
+
+Pre-Build
+--------
+
+The app relies on cocoapods (http://cocoapods.org) to build the required libraries.
+
+$ sudo gem install cocoapods
+$ pod install

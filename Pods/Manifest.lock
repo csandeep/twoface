@@ -1,0 +1,16 @@
+PODS:
+  - INAppStoreWindow (1.4)
+  - KFToolbar (0.0.6)
+  - SSKeychain (1.2.1)
+
+DEPENDENCIES:
+  - INAppStoreWindow (~> 1.4)
+  - KFToolbar (~> 0.0.6)
+  - SSKeychain (~> 1.2.1)
+
+SPEC CHECKSUMS:
+  INAppStoreWindow: 5a9eedcedc3ec95e7d8a12292de584b760d96c76
+  KFToolbar: d2115c669176ed4c335ff07ee6d460a241702bcf
+  SSKeychain: d18926838c2e7cd342e2a49e9f869858e49f035a
+
+COCOAPODS: 0.29.0

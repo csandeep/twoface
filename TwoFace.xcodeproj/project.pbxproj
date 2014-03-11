@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C21AC8518C6D070006703D5 /* TFClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21AC8418C6D070006703D5 /* TFClockView.m */; };
+		2C21AC8618C6D070006703D5 /* TFClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21AC8418C6D070006703D5 /* TFClockView.m */; };
+		2C21AC8B18C820AF006703D5 /* AddAccount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C21AC8A18C820AF006703D5 /* AddAccount.xib */; };
+		2C21AC8C18C820AF006703D5 /* AddAccount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C21AC8A18C820AF006703D5 /* AddAccount.xib */; };
+		2C401ED618B101CA00ECD227 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C401ED518B101CA00ECD227 /* GTMStringEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C401ED718B101CA00ECD227 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C401ED518B101CA00ECD227 /* GTMStringEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C401EDB18B105CD00ECD227 /* TFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C401EDA18B105CD00ECD227 /* TFHelper.m */; };
+		2C401EDC18B105CD00ECD227 /* TFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C401EDA18B105CD00ECD227 /* TFHelper.m */; };
+		2C401EE418B139BB00ECD227 /* TFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C401EE318B139BB00ECD227 /* TFWindowController.m */; };
+		2C401EE518B139BB00ECD227 /* TFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C401EE318B139BB00ECD227 /* TFWindowController.m */; };
+		2C942AB618B14CE000608B9E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C942AB518B14CE000608B9E /* MainWindow.xib */; };
+		2C942AB718B14CE000608B9E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C942AB518B14CE000608B9E /* MainWindow.xib */; };
+		2C942ABA18B1B88A00608B9E /* TFItemCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C942AB918B1B88A00608B9E /* TFItemCellView.m */; };
+		2C942ABB18B1B88A00608B9E /* TFItemCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C942AB918B1B88A00608B9E /* TFItemCellView.m */; };
+		2CCC98BB18B45F61005054FD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC98BA18B45F61005054FD /* LICENSE */; };
+		2CCC98BC18B45F61005054FD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC98BA18B45F61005054FD /* LICENSE */; };
+		2CDD05CC18A473350092C42A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDD05CB18A473350092C42A /* Cocoa.framework */; };
+		2CDD05D618A473350092C42A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD05D418A473350092C42A /* InfoPlist.strings */; };
+		2CDD05D818A473350092C42A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDD05D718A473350092C42A /* main.m */; };
+		2CDD05DF18A473350092C42A /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDD05DE18A473350092C42A /* TFAppDelegate.m */; };
+		2CDD05E218A473350092C42A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD05E018A473350092C42A /* MainMenu.xib */; };
+		2CDD05E418A473350092C42A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD05E318A473350092C42A /* Images.xcassets */; };
+		2CDD05EB18A473350092C42A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDD05EA18A473350092C42A /* XCTest.framework */; };
+		2CDD05EC18A473350092C42A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDD05CB18A473350092C42A /* Cocoa.framework */; };
+		2CDD05F418A473350092C42A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD05F218A473350092C42A /* InfoPlist.strings */; };
+		2CDD05F618A473350092C42A /* TwoFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDD05F518A473350092C42A /* TwoFaceTests.m */; };
+		2CDD0F9F18A47FC40092C42A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDD0F9E18A47FC40092C42A /* Security.framework */; };
+		2CDD112018A84F9D0092C42A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDD111F18A84F9D0092C42A /* AVFoundation.framework */; };
+		2CE1DB1418AEBFD500761302 /* HOTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB0D18AEBFD500761302 /* HOTP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-format"; }; };
+		2CE1DB1518AEBFD500761302 /* HOTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB0D18AEBFD500761302 /* HOTP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CE1DB1618AEBFD500761302 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB0F18AEBFD500761302 /* NSData+Hex.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CE1DB1718AEBFD500761302 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB0F18AEBFD500761302 /* NSData+Hex.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CE1DB1818AEBFD500761302 /* NSString+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB1118AEBFD500761302 /* NSString+Hex.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CE1DB1918AEBFD500761302 /* NSString+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB1118AEBFD500761302 /* NSString+Hex.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CE1DB1A18AEBFD500761302 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB1318AEBFD500761302 /* Token.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-shorten-64-to-32"; }; };
+		2CE1DB1B18AEBFD500761302 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1DB1318AEBFD500761302 /* Token.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CF34CD818AED58A001A2C54 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2CF34CD718AED58A001A2C54 /* README */; };
+		2CF34CD918AED58A001A2C54 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2CF34CD718AED58A001A2C54 /* README */; };
+		2CF34CDD18AF1C37001A2C54 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CF34CDB18AF1C37001A2C54 /* Credits.html */; };
+		2CF34CDE18AF1C37001A2C54 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CF34CDB18AF1C37001A2C54 /* Credits.html */; };
+		AD40702078364C0FBE96766A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69393065FC0478FA19FDAE9 /* libPods.a */; };
+		E6B9191450B2453C8EC531CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69393065FC0478FA19FDAE9 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CDD05ED18A473350092C42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CDD05C018A473350092C42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDD05C718A473350092C42A;
+			remoteInfo = TwoFace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C21AC8318C6D070006703D5 /* TFClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFClockView.h; sourceTree = "<group>"; };
+		2C21AC8418C6D070006703D5 /* TFClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFClockView.m; sourceTree = "<group>"; };
+		2C21AC8A18C820AF006703D5 /* AddAccount.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAccount.xib; sourceTree = "<group>"; };
+		2C401ECB18B0629F00ECD227 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C401ED318B101CA00ECD227 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		2C401ED418B101CA00ECD227 /* GTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStringEncoding.h; sourceTree = "<group>"; };
+		2C401ED518B101CA00ECD227 /* GTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStringEncoding.m; sourceTree = "<group>"; };
+		2C401ED918B105CD00ECD227 /* TFHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHelper.h; sourceTree = "<group>"; };
+		2C401EDA18B105CD00ECD227 /* TFHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHelper.m; sourceTree = "<group>"; };
+		2C401EE218B139BB00ECD227 /* TFWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFWindowController.h; sourceTree = "<group>"; };
+		2C401EE318B139BB00ECD227 /* TFWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFWindowController.m; sourceTree = "<group>"; };
+		2C942AB518B14CE000608B9E /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		2C942AB818B1B88A00608B9E /* TFItemCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFItemCellView.h; sourceTree = "<group>"; };
+		2C942AB918B1B88A00608B9E /* TFItemCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFItemCellView.m; sourceTree = "<group>"; };
+		2CCC98BA18B45F61005054FD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2CDD05C818A473350092C42A /* TwoFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDD05CB18A473350092C42A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2CDD05CE18A473350092C42A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2CDD05CF18A473350092C42A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CDD05D018A473350092C42A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CDD05D318A473350092C42A /* TwoFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwoFace-Info.plist"; sourceTree = "<group>"; };
+		2CDD05D518A473350092C42A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CDD05D718A473350092C42A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CDD05D918A473350092C42A /* TwoFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwoFace-Prefix.pch"; sourceTree = "<group>"; };
+		2CDD05DD18A473350092C42A /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		2CDD05DE18A473350092C42A /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		2CDD05E118A473350092C42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2CDD05E318A473350092C42A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CDD05E918A473350092C42A /* TwoFaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoFaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDD05EA18A473350092C42A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2CDD05F118A473350092C42A /* TwoFaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwoFaceTests-Info.plist"; sourceTree = "<group>"; };
+		2CDD05F318A473350092C42A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CDD05F518A473350092C42A /* TwoFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoFaceTests.m; sourceTree = "<group>"; };
+		2CDD0CEA18A476150092C42A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2CDD0F9E18A47FC40092C42A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2CDD111F18A84F9D0092C42A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2CDD112118A8736B0092C42A /* liboath.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liboath.0.dylib; path = "../../../Downloads/oath-toolkit-2.4.0/liboath/install/lib/liboath.0.dylib"; sourceTree = "<group>"; };
+		2CE1DB0C18AEBFD500761302 /* HOTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTP.h; sourceTree = "<group>"; };
+		2CE1DB0D18AEBFD500761302 /* HOTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOTP.m; sourceTree = "<group>"; };
+		2CE1DB0E18AEBFD500761302 /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
+		2CE1DB0F18AEBFD500761302 /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
+		2CE1DB1018AEBFD500761302 /* NSString+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hex.h"; sourceTree = "<group>"; };
+		2CE1DB1118AEBFD500761302 /* NSString+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hex.m"; sourceTree = "<group>"; };
+		2CE1DB1218AEBFD500761302 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		2CE1DB1318AEBFD500761302 /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Token.m; sourceTree = "<group>"; };
+		2CF34CD718AED58A001A2C54 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2CF34CDC18AF1C37001A2C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/Credits.html; sourceTree = "<group>"; };
+		82B6A4CC8EE1453C9CFCCE9B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C69393065FC0478FA19FDAE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CDD05C518A473350092C42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDD112018A84F9D0092C42A /* AVFoundation.framework in Frameworks */,
+				2CDD0F9F18A47FC40092C42A /* Security.framework in Frameworks */,
+				2CDD05CC18A473350092C42A /* Cocoa.framework in Frameworks */,
+				AD40702078364C0FBE96766A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDD05E618A473350092C42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDD05EC18A473350092C42A /* Cocoa.framework in Frameworks */,
+				2CDD05EB18A473350092C42A /* XCTest.framework in Frameworks */,
+				E6B9191450B2453C8EC531CB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C21AC8218C6D056006703D5 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				2C21AC8318C6D070006703D5 /* TFClockView.h */,
+				2C21AC8418C6D070006703D5 /* TFClockView.m */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		2C401ECD18B1008C00ECD227 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2C401ED918B105CD00ECD227 /* TFHelper.h */,
+				2C401EDA18B105CD00ECD227 /* TFHelper.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		2C401ED218B101CA00ECD227 /* google-toolbox-for-mac */ = {
+			isa = PBXGroup;
+			children = (
+				2C401ED318B101CA00ECD227 /* GTMDefines.h */,
+				2C401ED418B101CA00ECD227 /* GTMStringEncoding.h */,
+				2C401ED518B101CA00ECD227 /* GTMStringEncoding.m */,
+			);
+			path = "google-toolbox-for-mac";
+			sourceTree = "<group>";
+		};
+		2C401EDD18B1370D00ECD227 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C401EE218B139BB00ECD227 /* TFWindowController.h */,
+				2C401EE318B139BB00ECD227 /* TFWindowController.m */,
+				2C942AB518B14CE000608B9E /* MainWindow.xib */,
+				2C942AB818B1B88A00608B9E /* TFItemCellView.h */,
+				2C942AB918B1B88A00608B9E /* TFItemCellView.m */,
+				2C21AC8A18C820AF006703D5 /* AddAccount.xib */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		2CDD05BF18A473350092C42A = {
+			isa = PBXGroup;
+			children = (
+				2CCC98BA18B45F61005054FD /* LICENSE */,
+				2C401ECB18B0629F00ECD227 /* Podfile */,
+				2CF34CD718AED58A001A2C54 /* README */,
+				2CDD05FF18A473420092C42A /* External */,
+				2CDD05D118A473350092C42A /* TwoFace */,
+				2CDD05EF18A473350092C42A /* TwoFaceTests */,
+				2CDD05CA18A473350092C42A /* Frameworks */,
+				2CDD05C918A473350092C42A /* Products */,
+				82B6A4CC8EE1453C9CFCCE9B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2CDD05C918A473350092C42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD05C818A473350092C42A /* TwoFace.app */,
+				2CDD05E918A473350092C42A /* TwoFaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CDD05CA18A473350092C42A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD112118A8736B0092C42A /* liboath.0.dylib */,
+				2CDD111F18A84F9D0092C42A /* AVFoundation.framework */,
+				2CDD0F9E18A47FC40092C42A /* Security.framework */,
+				2CDD0CEA18A476150092C42A /* SenTestingKit.framework */,
+				2CDD05CB18A473350092C42A /* Cocoa.framework */,
+				2CDD05EA18A473350092C42A /* XCTest.framework */,
+				2CDD05CD18A473350092C42A /* Other Frameworks */,
+				C69393065FC0478FA19FDAE9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CDD05CD18A473350092C42A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD05CE18A473350092C42A /* AppKit.framework */,
+				2CDD05CF18A473350092C42A /* CoreData.framework */,
+				2CDD05D018A473350092C42A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2CDD05D118A473350092C42A /* TwoFace */ = {
+			isa = PBXGroup;
+			children = (
+				2CF34CDA18AF1B20001A2C54 /* Classes */,
+				2CDD05DD18A473350092C42A /* TFAppDelegate.h */,
+				2CDD05DE18A473350092C42A /* TFAppDelegate.m */,
+				2CDD05E018A473350092C42A /* MainMenu.xib */,
+				2CDD05E318A473350092C42A /* Images.xcassets */,
+				2CDD05D218A473350092C42A /* Supporting Files */,
+			);
+			path = TwoFace;
+			sourceTree = "<group>";
+		};
+		2CDD05D218A473350092C42A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD05D318A473350092C42A /* TwoFace-Info.plist */,
+				2CDD05D418A473350092C42A /* InfoPlist.strings */,
+				2CDD05D718A473350092C42A /* main.m */,
+				2CDD05D918A473350092C42A /* TwoFace-Prefix.pch */,
+				2CF34CDB18AF1C37001A2C54 /* Credits.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CDD05EF18A473350092C42A /* TwoFaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD05F518A473350092C42A /* TwoFaceTests.m */,
+				2CDD05F018A473350092C42A /* Supporting Files */,
+			);
+			path = TwoFaceTests;
+			sourceTree = "<group>";
+		};
+		2CDD05F018A473350092C42A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD05F118A473350092C42A /* TwoFaceTests-Info.plist */,
+				2CDD05F218A473350092C42A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CDD05FF18A473420092C42A /* External */ = {
+			isa = PBXGroup;
+			children = (
+				2C401ED218B101CA00ECD227 /* google-toolbox-for-mac */,
+				2CE1DB0B18AEBFB400761302 /* OathToken */,
+			);
+			name = External;
+			path = external;
+			sourceTree = "<group>";
+		};
+		2CE1DB0B18AEBFB400761302 /* OathToken */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1DB0C18AEBFD500761302 /* HOTP.h */,
+				2CE1DB0D18AEBFD500761302 /* HOTP.m */,
+				2CE1DB0E18AEBFD500761302 /* NSData+Hex.h */,
+				2CE1DB0F18AEBFD500761302 /* NSData+Hex.m */,
+				2CE1DB1018AEBFD500761302 /* NSString+Hex.h */,
+				2CE1DB1118AEBFD500761302 /* NSString+Hex.m */,
+				2CE1DB1218AEBFD500761302 /* Token.h */,
+				2CE1DB1318AEBFD500761302 /* Token.m */,
+			);
+			path = OathToken;
+			sourceTree = "<group>";
+		};
+		2CF34CDA18AF1B20001A2C54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C21AC8218C6D056006703D5 /* Widget */,
+				2C401EDD18B1370D00ECD227 /* View Controller */,
+				2C401ECD18B1008C00ECD227 /* Support */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CDD05C718A473350092C42A /* TwoFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDD05F918A473350092C42A /* Build configuration list for PBXNativeTarget "TwoFace" */;
+			buildPhases = (
+				2825A541F83340F38FDEBF03 /* Check Pods Manifest.lock */,
+				2CDD05C418A473350092C42A /* Sources */,
+				2CDD05C518A473350092C42A /* Frameworks */,
+				2CDD05C618A473350092C42A /* Resources */,
+				2D5F1D735F1C4799A74BA0F2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoFace;
+			productName = TwoFace;
+			productReference = 2CDD05C818A473350092C42A /* TwoFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CDD05E818A473350092C42A /* TwoFaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDD05FC18A473350092C42A /* Build configuration list for PBXNativeTarget "TwoFaceTests" */;
+			buildPhases = (
+				1C7AF7739B0442E186CFF5BD /* Check Pods Manifest.lock */,
+				2CDD05E518A473350092C42A /* Sources */,
+				2CDD05E618A473350092C42A /* Frameworks */,
+				2CDD05E718A473350092C42A /* Resources */,
+				3DC3A44EE30E434795B7DC13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDD05EE18A473350092C42A /* PBXTargetDependency */,
+			);
+			name = TwoFaceTests;
+			productName = TwoFaceTests;
+			productReference = 2CDD05E918A473350092C42A /* TwoFaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CDD05C018A473350092C42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sandeep Chayapathi";
+				TargetAttributes = {
+					2CDD05E818A473350092C42A = {
+						TestTargetID = 2CDD05C718A473350092C42A;
+					};
+				};
+			};
+			buildConfigurationList = 2CDD05C318A473350092C42A /* Build configuration list for PBXProject "TwoFace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				de,
+				es,
+				fi,
+				fr,
+				it,
+				ja,
+				ko,
+				nl,
+				no,
+				pl,
+				pt,
+				ru,
+				sv,
+				zh_CN,
+				zh_TW,
+				English,
+			);
+			mainGroup = 2CDD05BF18A473350092C42A;
+			productRefGroup = 2CDD05C918A473350092C42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CDD05C718A473350092C42A /* TwoFace */,
+				2CDD05E818A473350092C42A /* TwoFaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CDD05C618A473350092C42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C942AB618B14CE000608B9E /* MainWindow.xib in Resources */,
+				2CF34CD818AED58A001A2C54 /* README in Resources */,
+				2CCC98BB18B45F61005054FD /* LICENSE in Resources */,
+				2CF34CDD18AF1C37001A2C54 /* Credits.html in Resources */,
+				2CDD05D618A473350092C42A /* InfoPlist.strings in Resources */,
+				2C21AC8B18C820AF006703D5 /* AddAccount.xib in Resources */,
+				2CDD05E418A473350092C42A /* Images.xcassets in Resources */,
+				2CDD05E218A473350092C42A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDD05E718A473350092C42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C942AB718B14CE000608B9E /* MainWindow.xib in Resources */,
+				2CF34CD918AED58A001A2C54 /* README in Resources */,
+				2CF34CDE18AF1C37001A2C54 /* Credits.html in Resources */,
+				2CDD05F418A473350092C42A /* InfoPlist.strings in Resources */,
+				2CCC98BC18B45F61005054FD /* LICENSE in Resources */,
+				2C21AC8C18C820AF006703D5 /* AddAccount.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C7AF7739B0442E186CFF5BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2825A541F83340F38FDEBF03 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5F1D735F1C4799A74BA0F2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC3A44EE30E434795B7DC13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CDD05C418A473350092C42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C942ABA18B1B88A00608B9E /* TFItemCellView.m in Sources */,
+				2CE1DB1418AEBFD500761302 /* HOTP.m in Sources */,
+				2CE1DB1A18AEBFD500761302 /* Token.m in Sources */,
+				2CE1DB1818AEBFD500761302 /* NSString+Hex.m in Sources */,
+				2CE1DB1618AEBFD500761302 /* NSData+Hex.m in Sources */,
+				2C401EDB18B105CD00ECD227 /* TFHelper.m in Sources */,
+				2C401ED618B101CA00ECD227 /* GTMStringEncoding.m in Sources */,
+				2CDD05D818A473350092C42A /* main.m in Sources */,
+				2C21AC8518C6D070006703D5 /* TFClockView.m in Sources */,
+				2C401EE418B139BB00ECD227 /* TFWindowController.m in Sources */,
+				2CDD05DF18A473350092C42A /* TFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDD05E518A473350092C42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C401EDC18B105CD00ECD227 /* TFHelper.m in Sources */,
+				2C942ABB18B1B88A00608B9E /* TFItemCellView.m in Sources */,
+				2CE1DB1718AEBFD500761302 /* NSData+Hex.m in Sources */,
+				2C401EE518B139BB00ECD227 /* TFWindowController.m in Sources */,
+				2CE1DB1B18AEBFD500761302 /* Token.m in Sources */,
+				2CE1DB1918AEBFD500761302 /* NSString+Hex.m in Sources */,
+				2C21AC8618C6D070006703D5 /* TFClockView.m in Sources */,
+				2C401ED718B101CA00ECD227 /* GTMStringEncoding.m in Sources */,
+				2CE1DB1518AEBFD500761302 /* HOTP.m in Sources */,
+				2CDD05F618A473350092C42A /* TwoFaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CDD05EE18A473350092C42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CDD05C718A473350092C42A /* TwoFace */;
+			targetProxy = 2CDD05ED18A473350092C42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CDD05D418A473350092C42A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDD05D518A473350092C42A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CDD05E018A473350092C42A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDD05E118A473350092C42A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2CDD05F218A473350092C42A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDD05F318A473350092C42A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CF34CDB18AF1C37001A2C54 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF34CDC18AF1C37001A2C54 /* en */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CDD05F718A473350092C42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CDD05F818A473350092C42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CDD05FA18A473350092C42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B6A4CC8EE1453C9CFCCE9B /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoFace/TwoFace-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "TwoFace/TwoFace-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sandeep/Worksheet/TwoFace/TwoFace,
+					"$(SRCROOT)/external/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CDD05FB18A473350092C42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B6A4CC8EE1453C9CFCCE9B /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoFace/TwoFace-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "TwoFace/TwoFace-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sandeep/Worksheet/TwoFace/TwoFace,
+					"$(SRCROOT)/external/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2CDD05FD18A473350092C42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B6A4CC8EE1453C9CFCCE9B /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwoFace.app/Contents/MacOS/TwoFace";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoFace/TwoFace-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "TwoFaceTests/TwoFaceTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sandeep/Worksheet/TwoFace/TwoFace,
+					/Users/sandeep/Worksheet/TwoFace/TwoFace/TwoFace,
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2CDD05FE18A473350092C42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B6A4CC8EE1453C9CFCCE9B /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwoFace.app/Contents/MacOS/TwoFace";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoFace/TwoFace-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "TwoFaceTests/TwoFaceTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sandeep/Worksheet/TwoFace/TwoFace,
+					/Users/sandeep/Worksheet/TwoFace/TwoFace/TwoFace,
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CDD05C318A473350092C42A /* Build configuration list for PBXProject "TwoFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDD05F718A473350092C42A /* Debug */,
+				2CDD05F818A473350092C42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDD05F918A473350092C42A /* Build configuration list for PBXNativeTarget "TwoFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDD05FA18A473350092C42A /* Debug */,
+				2CDD05FB18A473350092C42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDD05FC18A473350092C42A /* Build configuration list for PBXNativeTarget "TwoFaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDD05FD18A473350092C42A /* Debug */,
+				2CDD05FE18A473350092C42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CDD05C018A473350092C42A /* Project object */;
+}
